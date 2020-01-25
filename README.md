@@ -16,6 +16,11 @@ Mehr Informationen zum erstellen von Telegram Bots: [https://core.telegram.org/b
 * Schreibe nun eine Nachricht in die Gruppe, der RawBot wird dir antworten
 * Schreibe dir deine ID heraus, die unter **message -> from -> id** steht
 
+### Python Umgebung
+Die Module requests und lxml sind standardmäßig nicht installiert. Diese können mit pip nachinstalliert werden:
+> pip install requests
+> pip install lxml
+
 ### Script installieren
 Lade das Script in deine Python Umgebung und passe in den oberen Zeilen die Werte für den Telegram Token und die Telegram ChatID an. Außerdem musst du deine iCMS Zugangsdaten eingeben.
 Wenn du das Script jetzt ausführst solltest du einmalig über **alle** eingetragenen Prüfungen benachrichtigt werden.
