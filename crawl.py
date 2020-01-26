@@ -49,10 +49,10 @@ try:
 	link_notenspiegel = link_notenspiegel.replace("amp;", "")
 	print(link_notenspiegel)
 except AttributeError:
-	print("Error: Link Notelspiegel wurde nicht gefunden.")
+	print("Error: Link Notenspiegel wurde nicht gefunden.")
 	sys.exit()
 
-print("Rufe Notespiegel Seite auf...")
+print("Rufe Notenspiegel Seite auf...")
 result = session_requests.get(
 	link_notenspiegel,
 	headers=dict(referer="https://icms.hs-hannover.de/qisserver/rds?state=sitemap&topitem=leer&breadCrumbSource=portal")
