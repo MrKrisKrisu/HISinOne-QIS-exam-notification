@@ -1,7 +1,7 @@
 # Hochschule Hannover Prüfungsergebnischecker
 
 ## Was ist das?
-Ein Python Script, das sich für dich in iCMS einloggt und schaut, ob sich Änderungen (zum Beispiel eine neue eingetragene Note) in der Prüfungsübersicht bei der ergeben haben. Das Script benachrichtigt dich dann direkt per Telegram. Es ist also dafür gedacht, beispielsweise alle 10 Minuten ausgeführt zu werden.
+Ein Python Script, das sich für dich in iCMS einloggt und schaut, ob sich Änderungen (zum Beispiel eine neue eingetragene Note) in der Prüfungsübersicht bei dir ergeben haben. Das Script benachrichtigt dich dann direkt per Telegram. Es ist also dafür gedacht, beispielsweise alle 10 Minuten ausgeführt zu werden.
  
 > Tut dem Hochschulserver einen Gefallen und fragt **nicht** alle 10 Sekunden ab!
  
