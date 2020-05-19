@@ -1,10 +1,24 @@
-# Hochschule Hannover Prüfungsergebnischecker
+# HISinOne QIS -> Benachrichtigungen über bewertete Prüfungsleistungen
 
 ## Was ist das?
 Ein Python Script, das sich für dich in iCMS einloggt und schaut, ob sich Änderungen (zum Beispiel eine neue eingetragene Note) in der Prüfungsübersicht bei dir ergeben haben. Das Script benachrichtigt dich dann direkt per Telegram. Es ist also dafür gedacht, beispielsweise alle 10 Minuten ausgeführt zu werden.
  
 > Tut dem Hochschulserver einen Gefallen und fragt **nicht** alle 10 Sekunden ab!
  
+## Kompatible Hochschulen
+Die QIS-Software aus dem Paket HISinOne wird bei vielen Hochschulen in Deutschland eingesetzt. Sofern keine individuellen Programmierungen vorhanden sind, sollte dieses Script bei diesen dann auch funktionieren.
+
+Bislang sind folgende kompatible Hochschulen bekannt:
+* Hochschule Hannover
+* TU Braunschweig
+* Leibniz Universität Hannover
+* Hochschule Bremerhaven
+* Hochschule Bremen (unsicher, hat teilweise geklappt)
+* Westfälische Hochschule Gelsenkirchen
+* Hochschule Koblenz
+* FernUniversität in Hagen
+* Hochschule Karlsruhe Technik und Wirtschaft
+
 ## Installationsanleitung
 ### Telegram einrichten
 #### Telegram Bot erstellen
