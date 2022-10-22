@@ -1,5 +1,15 @@
 # HISinOne QIS -> Benachrichtigungen über bewertete Prüfungsleistungen
 
+> **Warning**
+> Dieses Skript wird von mir nicht mehr weiterentwickelt, da ich leider keinen Zugriff mehr auf eine Installation von
+> HISinOne QIS habe. Ich empfehle einen Blick in folgenden Fork zu werfen:
+> https://github.com/binsky08/HISinOne-QIS-exam-notification
+>
+> **Warning**
+> This script will no longer be developed by me, since I unfortunately no longer have access to an installation of
+> HISinOne QIS. I recommend to have a look at the following fork:
+> https://github.com/binsky08/HISinOne-QIS-exam-notification
+
 ## Was ist das?
 
 Ein Python Script, das sich für dich in iCMS einloggt und schaut, ob sich Änderungen (zum Beispiel eine neue
